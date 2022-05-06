@@ -2,6 +2,7 @@ import styles from './index.less';
 import { Divider, Menu } from 'antd';
 import MetamaskWallet from '@/componets/MetamaskWallet';
 import Web3jsComponets from '@/componets/Web3jsComponets';
+import EthersComponets from '@/componets/EthersComponets';
 
 export default function IndexPage() {
   return (
@@ -29,7 +30,9 @@ export default function IndexPage() {
 
       <div>
         <h2>三，HD wallet:</h2>
-        <li></li>
+        <li>
+          <EthersComponets />
+        </li>
       </div>
 
       <Divider />
